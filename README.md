@@ -7,25 +7,25 @@ Pilotes de la disposition clavier [Bépo](https://bepo.fr) générés avec [Kala
 - Installer Kalamine
 - Générer les pilotes portable Windows (ahk), MacOS (keylayout), Linux user (xkb_keymap) et Linux root (xkb_symbols) :
   ```sh
-  kalamine build Bépo.toml
+  kalamine build Bépo.yml
   ```
   pour conserver les raccourcis clavier qwerty :
   ```sh
-  kalamine build --qwerty-shortcuts Bépo.toml
+  kalamine build --qwerty-shortcuts Bépo.yml
   ```
 - Générer les pilotes Windows (à lancer sur un PC Windows avec [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=102134) d’installé) :
   ```sh
-  wkalamine build Bépo.toml
+  wkalamine build Bépo.yml
   ```
   pour conserver les raccourcis clavier qwerty :
   ```sh
-  wkalamine build --qwerty-shortcuts Bépo.toml
+  wkalamine build --qwerty-shortcuts Bépo.yml
   ```
 
 ## Tester le layout
 
 ```sh
-kalamine watch Bépo.toml
+kalamine watch Bépo.yml
 ```
 
 ## Touches manquantes
